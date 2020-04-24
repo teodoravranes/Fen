@@ -1,0 +1,10 @@
+#include <iostream>
+
+using namespace std;
+
+class Abs
+{
+public:
+    virtual int getTemperatura() const = 0;
+    virtual void setTemperatura(int) = 0;
+};
